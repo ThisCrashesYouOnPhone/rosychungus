@@ -1,0 +1,25 @@
+* {
+    background-color:antiquewhite;
+}
+
+body {
+    display: grid;
+}
+
+b {
+    color: magenta;
+}
+b:hover {
+    color: blue;
+    font-size: 10vh;
+}
+
+.rosy {
+    width: 60vh;
+    height: 60vh;
+}
+
+.rosy:hover {
+    height: 70vh;
+    width: 70vh;
+}
