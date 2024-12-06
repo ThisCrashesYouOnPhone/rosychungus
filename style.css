@@ -23,3 +23,16 @@ b:hover {
     height: 70vh;
     width: 70vh;
 }
+
+.noah {
+    width: 25vh;
+    height: 25vh;
+    border: 5px solid orange;
+    margin-top: 3vh;
+}
+
+.noah:hover {
+    border: 22px dotted blue;
+    width: 80vh;
+    height: 25vh;
+}
