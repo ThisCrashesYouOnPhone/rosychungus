@@ -1,14 +1,14 @@
-* {
-    background-color:antiquewhite;
-}
-
+/* Ensure body background can change dynamically */
 body {
     display: grid;
+    transition: background-color 0.5s ease;
+    /* Smooth background color transition */
 }
 
 b {
     color: magenta;
 }
+
 b:hover {
     color: blue;
     font-size: 10vh;
@@ -35,4 +35,8 @@ b:hover {
     border: 22px dotted blue;
     width: 80vh;
     height: 25vh;
+}
+.noah-page {
+    size: 10vh;
+    color: blue;
 }
